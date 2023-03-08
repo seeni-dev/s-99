@@ -1,4 +1,4 @@
-import scala.collection.immutable.{AbstractSeq, LinearSeq}
+package FirstTen
 
 trait P08 {
   def compress[A](l: Seq[A]): Seq[A] = {

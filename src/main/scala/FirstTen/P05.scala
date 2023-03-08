@@ -1,3 +1,5 @@
+package FirstTen
+
 
 trait P05 {
   def reverse[A](l: Seq[A]): Seq[A] = {

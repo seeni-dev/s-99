@@ -1,3 +1,5 @@
+package FirstTen
+
 import org.scalatest.flatspec.AnyFlatSpec
 
 class P10Spec extends AnyFlatSpec with P10 {

@@ -1,4 +1,4 @@
-import scala.collection.immutable.{AbstractSeq, LinearSeq}
+package FirstTen
 
 trait P09 {
   def pack[A](l: Seq[A]): Seq[Seq[A]] = {

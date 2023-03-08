@@ -1,4 +1,4 @@
-import scala.collection.immutable.{AbstractSeq, LinearSeq}
+package FirstTen
 
 trait P07  {
   def flatten(l: Seq[Any]): Seq[Any] = {

@@ -1,3 +1,5 @@
+package FirstTen
+
 
 trait P03 {
   def kthElement[A](k: Int, l: Seq[A]): Option[A] = {

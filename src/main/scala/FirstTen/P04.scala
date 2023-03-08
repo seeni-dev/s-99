@@ -1,3 +1,5 @@
+package FirstTen
+
 
 trait P04 {
   def numberOfElements[A](l: Seq[A]): Int = {

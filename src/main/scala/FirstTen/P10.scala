@@ -1,3 +1,5 @@
+package FirstTen
+
 
 
 trait P10 extends P09{

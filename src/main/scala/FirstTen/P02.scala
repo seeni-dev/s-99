@@ -1,3 +1,5 @@
+package FirstTen
+
 
 trait P02 {
   def lastButOne[A](l: Seq[A]): Option[A] = {

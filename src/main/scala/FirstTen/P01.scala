@@ -1,4 +1,4 @@
-import scala.collection.immutable.{AbstractSeq, LinearSeq}
+package FirstTen
 
 trait P01 {
   def last[A](l: Seq[A]): Option[A] = {
