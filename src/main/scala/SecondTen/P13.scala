@@ -27,6 +27,12 @@ trait P13{
     }
   }
   def encodeDirect[A](l: Seq[A]): Seq[(Int,A)] = {
-      encodeDirectInternal(Seq.empty, None, l)
+    l match {
+      case Nil => Nil
+      case a :: remaining => {
+        val (head, tail) = l.span(_==a)
+        (head.length, a) +: encodeDirect(tail)
+      }
+    }
   }
 }
